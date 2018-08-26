@@ -1,4 +1,4 @@
-/*轮播图开始*/
+﻿/*轮播图开始*/
 var timer;
 var num = 0;
 var dist = 627;
@@ -417,4 +417,3 @@ function checkReg(){
     }else{return false;}
 };
 /*注册表单验证结束*/
-console.log($(window).width());

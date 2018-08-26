@@ -44,7 +44,7 @@
 }  
 .menu ul li{
     float: left;
-    width: 98px;
+    width: 100px;
     height: 54px;
     padding-right: 2px;
     text-align: center;
@@ -70,7 +70,8 @@
 }
 .menu a{
     text-decoration: none;
-    padding: 13px 20px;
+    text-align: center;
+    padding: 13px 0;
     font-size: 15px;
     font-weight: 700;
     color: #969696;

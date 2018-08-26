@@ -1,0 +1,235 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    margin:56px 0 0 50px;
+    width: 100px;
+    vertical-align: middle;
+}
+.login{
+    margin:5px auto auto;
+    width: 400px;
+    height: 500px;
+    padding: 50px 50px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+.login_top{
+    margin-left: auto;
+    margin-right: auto;
+    height: 42px;
+    font-size: 18px;
+    color:#969696;
+    padding-top: 7px;
+    text-align: center;
+}
+.login_top a{
+    width: 55px;
+    height: 35px;
+    display: inline-block;
+    font-size: 18px;
+    color:#969696;
+    margin:0 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.login_top .current{
+    font-weight: 700;
+    color: #ea6f5a;
+    border-bottom: 2px solid #ea6f5a;
+}
+.login_top a:hover{
+    border-bottom: 2px solid #ea6f5a;
+}
+.put-info {
+    width: 300px;
+    height: 98px;
+    border-radius: 4px;
+    margin-top:40px;
+    box-sizing: border-box;
+    border: 1px solid #c8c8c8;
+    background: #f8f8f8;
+}
+.put-info span{
+    display: block;
+    line-height: 48px;
+    vertical-align: center;
+    height: 48px;
+    box-sizing: border-box;
+    padding:14px auto 14px 10px;
+}
+.put-info span:nth-of-type(2){
+    border-top: 1px solid #c8c8c8;
+}
+.put-info span input{
+    height: 30px;
+    width: 80%;
+    border:none;
+    outline: none;
+    background: #f8f8f8;
+}
+input::-webkit-input-placeholder {
+    color: #aab2bd;
+    font-size: 14px;
+    text-align: left;
+}
+.put-info .icon-yonghu,.put-info .icon-mima{
+    font-size:18px;
+    margin: 10px;
+    color:#969696;
+}
+.login_mid{
+    display: block;
+    width: 300px;
+    height: 20px;
+    margin-top: 18px;
+    font-size: 14px;
+    color:#999;
+    position: relative;
+}
+.left {
+    float: left;
+    text-align: left;
+}
+.right {
+    float: right;
+    text-align: right;
+}
+.tips{
+    color:#999;
+    text-decoration: none;
+}
+.tips:hover{
+    cursor: pointer;
+    color:#333;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: auto;
+    right: 0;
+    border:#fff;
+    width: 192px;
+    height: 168px;
+    min-width: 160px;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    z-index: 100;
+}
+.dropdown-menu li{
+    height: 39px;
+    line-height: 39px;
+    padding-left:10px;
+}
+.dropdown-menu li:hover{
+    background:#f1f1f1;
+}
+.dropdown-menu a{
+    text-decoration: none;
+    color:#333;
+}
+.logbtn {
+    display: inline-block;
+    margin-top: 22px;
+    width: 100%;
+    height: 43px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 9px 18px;
+    font-size: 18px;
+    background: #3194d0;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.logbtn:hover{
+    background: rgb(24,124,183);
+}
+.login_bottom{
+    width: 100%;
+    height: 90px;
+    margin-top:40px;
+    box-sizing: border-box;
+}
+h6{
+    text-align: center;
+    position: relative;
+    margin: 0 0 10px;
+    font-size: 12px;
+    color: #b5b5b5;
+}
+h6:before,h6:after{
+    content: "";
+    border-top: 1px solid #b5b5b5;
+    display: block;
+    position: absolute;
+    width: 60px;
+    top: 8px;
+}
+h6:before{
+    left: 30px;
+}
+h6:after{
+    right: 30px;
+}
+.more_login{
+    width: 240px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.more_login li{
+    width: 50px;
+    float: left;
+    margin-right:13px;
+}
+.more_login li:nth-of-type(4){
+    margin-right:0;
+}
+.more_login li a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.more_login li:nth-of-type(4) a{
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 700;
+    color:#a29f9c;
+}
+.icon-weibo,.icon-weixin,.icon-qq,.icon-douban{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+}
+.icon-weibo{
+    color:#e05244;
+    font-size: 30px;
+}
+.icon-weixin{
+    color:#00bb29;
+    font-size: 30px;
+}
+.icon-qq{
+    color:#498ad5;
+    font-size: 25px;
+}
+.icon-douban{
+    color:#378b24;
+    font-size: 30px;
+}

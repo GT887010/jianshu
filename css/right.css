@@ -1,0 +1,249 @@
+.ulist-menu .link-index a,.icon-navigation{
+	color:#333;
+}
+main{
+	margin-top: 60px;
+	height: 100px;
+	min-width: 935px;
+	background: skyblue;
+}
+main .top{
+	width: 935px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+main .top p{
+	margin-top: 24px;
+	float: left;
+	font-size: 20px;
+	color: rgb(65, 134, 131);
+}
+main .top .tow{
+	float: right;
+	font-size: 18px;
+	margin-top: 50px;
+}
+main .top>p span{
+	display: inline-block;
+}
+main .top p .re-author {
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+}
+main .top p .des{
+	position: relative;
+	top: -7px;
+	margin-left: 15px;
+}
+section{
+	width: 935px;
+	height: auto;
+	margin: 20px auto 70px;
+	overflow: hidden;
+}
+section .left {
+	float: left;
+	width: 146px;
+	overflow: hidden;   
+}
+section .left >h6{
+	font-size: 19px;
+	font-weight: bold;
+	padding-bottom: 17px;
+	border-bottom: 1px solid gainsboro;
+	padding-top: 30px;
+}
+section .left ul li{
+	padding-top: 15px ;
+	padding-bottom: 15px;
+	padding-left: 9px;
+	color: rgb(65, 134, 122);
+	font-size: 16px;
+	border-bottom: 1px solid gainsboro;
+	cursor: pointer;
+}
+#ul2 li:hover{
+	background: gainsboro;
+}
+section .left ul li>a{
+	text-decoration: none;
+	color: rgb(65, 134, 122);
+}
+section .left >ul li:nth-of-type(6n){
+	border: none;
+}
+
+section .left .ul1 li p{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+section .left .ul1 li p span{
+	display: inline-block;
+	margin-right: 5px;
+}
+section .left .ul1 li .des1{
+	color: black;
+}
+section .left .ul1 li .des2{
+	font-size: 12px;
+	color: rgb(153, 153, 153);
+}
+section .left .ul1 li:nth-of-type(2n){
+	border: none;
+}
+section .right {
+	width: 751px;
+	float: right;
+	overflow: hidden;
+}
+section .right >h5{
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 17px;
+	border-left: 3px solid skyblue;
+	margin-top: 30px;
+	padding-left: 10px;
+}
+section .right >h5 span{
+	position: relative;
+	font-size: 14px;
+	color: rgb(65, 134, 122);
+	left: 610px;
+	cursor: pointer;
+}
+section .right >ul{
+	overflow: hidden;
+}
+section .right ul li{
+	float: left;
+	width: 369px;
+	border: 1px solid gainsboro;
+	padding: 22px 0px 9px 16px;
+	box-sizing: border-box;
+	margin-right: 12px;
+	margin-bottom: 13px;
+	margin-top: 3px;
+	cursor: pointer;
+}
+section .right ul li:hover{
+	box-shadow: 1px 3px 5px 3px gainsboro;
+	margin-top: 0px;
+	transition: all 0.5s;
+}
+section .right ul li:nth-of-type(2n){
+	margin-right: 0px;
+}
+section .right ul li>span{
+	float: left;
+}
+section .right ul li span>img{
+	border-radius: 50%;
+}
+section .right ul li .div{
+	float: right;
+	width: 255px;
+	padding-right: 17px;
+	height: auto;
+	overflow: hidden;
+}
+section .right ul li p{
+	font-size: 12px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+section .right ul li .p_one{
+	font-size: 15px;
+	font-weight: bold;
+}
+section .right ul li .p_tow{
+	color: rgb(153, 165, 194);
+}
+#id1{
+	margin-bottom: 3px;
+}
+#id2{
+	border-radius: 0;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
+section .right ul li .p_tow:hover{
+	color: black;
+}
+section .right ul li .p_three{
+	color: rgb(65, 134, 122);
+}
+section .right ul li .p_three:hover{
+	color: black;
+}
+#img{
+	border-radius: 0;
+}
+section .right ul li .div2{
+	width: 225px;
+	padding-left: 10px;
+	padding-right: 0px;
+	margin-top: 6px;
+}
+section .right >dl{
+	width: 141px;
+	height: 293px;
+	border: 1px solid gainsboro;
+	border-radius: 5px 5px 5px 5px;
+	padding: 7px 7px 25px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+section .right >dl dt{
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom:12px;
+	line-height: 24px;
+	overflow: hidden; 
+}
+section .right >dl dd{
+	font-size: 12px;
+	color: rgb(153, 165, 197);
+}
+section .right >dl span{
+	margin-top: 12px;
+	font-size: 12px;
+	color: black;
+}
+section .right >dl:nth-of-type(5n){
+	margin-right: 0px;
+}
+
+
+
+
+
+footer{
+	min-width: 1400px;
+	height: 200px;
+}
+.footer{
+	width: 935px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.footer>ul{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.footer>ul li{
+	float: left;
+	margin-right: 0px;
+	margin-top: 26px;
+	margin-bottom: 23px;
+}
+.footer>p{
+	text-align: center;
+	color: rgb(153, 153, 153);
+	font-size: 15px;
+}

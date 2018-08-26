@@ -1,0 +1,265 @@
+/*
+* @Author: admin
+* @Date:   2018-08-10 14:27:20
+* @Last Modified by:   admin
+* @Last Modified time: 2018-08-12 17:13:19
+*/
+section{
+	width: 945px;
+	margin: 95px auto;
+	overflow: hidden;
+}
+section div.left {
+	float: left;
+	width: 625px;
+}
+div.left .div1{
+	height: 170px;
+	width: 625px;
+}
+div.left >div>img{
+	float: left;
+	box-shadow: -1px 3px 4px 1px black;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+div.left >div>div{
+	float: right;
+	margin-left: 24px;
+	width: 450px;
+	height: 160px;
+	margin-top: 10px;
+}
+.pd>p{
+	margin-top: 15px;
+	font-size: 12px;
+	color: rgb(150, 176, 215);
+}
+p.p1{
+	font-size: 24px;
+	color: black;
+}
+span.sp{
+	position: relative;
+	top: 5px;
+	left: 0px;
+}
+p.p3{
+	margin-top: 30px;
+}
+span.sp1{
+	height: 40px;
+	width: 150px;
+	border-radius: 20px 20px 20px 20px;
+	float: left;
+	background: rgb(218, 158, 85);
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+span.sp2{
+	height: 40px;
+	width: 100px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	float: left;
+	margin-left: 10px;
+	border: 1px solid rgb(218, 158, 85);
+	cursor: pointer;
+}
+span.sp3{
+	height: 40px;
+	width: 100px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	float: right;
+	border: 1px solid rgb(66, 192, 46);
+	cursor: pointer;
+}
+div.mid{
+	width: 478px;
+	margin-top: 40px;
+}
+div.mid>p{
+	margin-top: 15px;
+	font-size: 13px;
+	overflow: hidden;
+}
+.mid>p>span{
+	margin-right: 10px;
+}
+span.simg{
+	float: left;
+	position: relative;
+	top: 6px;
+}
+span.speech{
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	background:gainsboro;
+	float: left;
+	cursor: pointer;
+}
+span.les{
+	height: 30px;
+	width: 80px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	background:gainsboro;
+	float: left;
+	cursor: pointer;
+}
+div.con{
+	width: 625px;
+	height: 130px;
+	border: 1px solid gainsboro;
+	margin-top: 30px;
+	box-sizing: border-box;
+	padding: 28px 20px;
+	position: relative;
+}
+div.con1{
+	width: 625px;
+	height: 325px;
+	border: 1px solid gainsboro;
+	margin-top: 30px;
+	box-sizing: border-box;
+	padding: 28px 20px;
+}
+div.con1>p.more{
+	text-align: center;
+	height: 40px;
+	margin-top: 10px;
+}
+a.desa{
+	text-decoration: none;
+	color: black;
+}
+.con>p{
+	width: 415px;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+.con>span{
+	position: absolute;
+	top: 73px;
+	right: 73px;
+	color: gainsboro;
+}
+h6{
+	font-weight: bold;
+}
+.con1>p>span{
+	font-size: 12px;
+	padding: 5px 10px;
+	border: 1px solid gainsboro;
+	margin-left: 20px;
+	border-radius: 5px 5px 5px 5px;
+	font-weight: normal;
+}
+.con1>p{
+	font-weight: bold;
+}
+.con1>ul{
+	overflow: hidden;
+	margin-top: 20px;
+}
+span.num{
+	font-size: 18px;
+	color: gainsboro;margin-right: 20px;
+	font-style: italic;
+	position: absolute;
+	left: -35px;
+	top: 18px;
+}
+span.read{
+	font-size: 12px;
+	height: 23px;
+	background: rgb(251, 245, 237);
+	padding: 5px 10px;
+	color: rgb(218, 158, 85);
+	border-radius: 20px 20px 20px 20px;
+}
+.con1>ul li{
+	width: 536px;
+	padding: 16px 0px;
+	border-bottom: 1px solid gainsboro;
+	position: relative;
+	margin-left: 35px;
+}
+.con1>ul li:nth-of-type(4n){
+	border: none;
+}
+
+
+section div.right {
+	float: right;
+	width: 285px;
+}
+.right >p{
+	margin-bottom: 20px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid gainsboro;
+}
+h5{
+	color: gainsboro;
+	margin-bottom: 10px;
+}
+span.spjs{
+	position: relative;
+	top: 9px;
+	left: 0px;
+	margin-right: 10px;
+}
+span.spjs img{
+	border-radius: 50%;
+}
+p.share span{
+	margin-left: 15px;
+}
+.icon-weibo{
+	font-size: 20px;
+	color: rgb(150, 150, 150);
+}
+.icon-weixin{
+	font-size: 19px;
+	color: rgb(150, 150, 150);
+}
+div.bot>ul>li{
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+div.bot>p{
+	margin-bottom: 15px;
+	color: rgb(150, 150, 150);
+	font-size: 14px;
+}
+div.bot>ul li>img{
+	float: left;
+	margin-right: 10px;
+}
+div.tag{
+	float: right;
+	width: 220px;
+}
+p.tile{
+	width: 120px;
+	font-size: 14px;
+	margin-top: 1px;
+	margin-bottom: 6px;
+	overflow: hidden;
+	height: 20px;
+}
+p.pdes{
+	font-size: 12px;
+	color: rgb(150, 150, 150);
+	overflow: hidden;
+	height: 32px;
+}

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册 - 简书</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/cssreset.css">
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/sign_up.css">
+</head>
+<body>
+<div class="logo"><a href="../index.html"><img src="../images/logo-login.png" alt=""></a></div>
+<div class="login">
+    <div class="login_top">
+        <a href="../html/sign_in.html">登录</a>
+        <span style="font-weight:700">·</span>
+        <a href="#" class="current">注册</a>
+    </div>
+    <form name="sign" id="sign_up" action="" accept-charset="UTF-8" method="post" onsubmit="return checkReg();">
+        <div class="put-info">
+            <span class="wrap">
+                <i class="iconfont icon-yonghu"></i>
+                <input type="text" name="userid" id="userid" placeholder="你的昵称" autocomplete="off" onchange="checkUser();">
+                <div class="error">
+                    <span><i class="iconfont icon-error"></i></span>
+                    <p>昵称格式不正确，需要是2-15个字符，只能包含英文中文下划线，不能包含空格。</p>
+                </div>
+            </span>
+            <span class="wrap">
+                <i class="iconfont icon-phone"></i>
+                <input type="text" name="phone" id="phone" placeholder="手机号" autocomplete="off" onchange="checkPhone();">
+                <div class="error">
+                    <span><i class="iconfont icon-error"></i></span>
+                    <p>手机号格式不正确，需要是11位的纯数字</p>
+                </div>
+            </span>
+            <span class="wrap">
+                <i class="iconfont icon-verify"></i>
+                <input type="text" name="code" id="verify" placeholder="手机验证码" autocomplete="off" onchange="checkVerify();">
+                <button class="send-verify" type="button" disabled>发送验证码</button>
+                <div class="error">
+                    <span><i class="iconfont icon-error"></i></span>
+                    <p>请输入6位纯数字验证码</p>
+                </div>
+            </span>
+            <span class="wrap">
+                <i class="iconfont icon-mima"></i>
+                <input type="password" name="pass" id="pass" placeholder="密码" autocomplete="off"onchange="checkPwd();">
+                <div class="error">
+                    <span><i class="iconfont icon-error"></i></span>
+                    <p>密码格式不正确，需要是以字母开头，长度在6-18之间，只能包含字符、数字和下划线。</p>
+                </div>
+            </span>
+        </div>
+        <button class="regbtn" type="submit">注册</button>
+    </form>
+    <p class="sign_up_msg">点击 “注册” 即表示您同意并愿意遵守简书 <br><a href="#">用户协议</a>和<a href="#">隐私政策</a>。</p>
+    <div class="login_bottom">
+        <h6>社交帐号直接注册</h6>
+        <ul class="more_login">
+            <li><a href="#"><i class="iconfont icon-weixin"></i></a></li>
+            <li><a href="#"><i class="iconfont icon-qq"></i></a></li>
+        </ul>
+    </div>
+</div>
+<script src="../js/jquery.js"></script>
+<script src="../js/my.js"></script>
+</body>
+</html>

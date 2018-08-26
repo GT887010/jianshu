@@ -1,0 +1,166 @@
+.ulist-menu .link-index a,.icon-navigation{
+	color:#333;
+}
+.icon-app-download,.ulist-menu>li:nth-of-type(2)>a{
+	color: #ea6f5a;
+}
+section{
+	width: 931px;
+	height: auto;
+	margin: 90px auto 20px;
+}
+section>div{
+	width: 931px;
+	background: url('../images/app1.png');
+	padding-bottom: 20px;
+}
+
+section div .top{
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	overflow: hidden;
+}
+section div .top>img{
+	float: left;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 20px;
+}
+section h6{
+	float: left ;
+	margin-left: 28px;
+	font-size: 27px;
+	margin-top: 39px;
+}
+section div .top>p{
+	float: left;
+	margin-left: 28px;
+	font-size: 23px;
+	margin-top: 14px;
+}
+section div .bottom{
+	width: 931px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+section div .bottom .right {
+	float: left;
+	margin-top: 117px;
+}
+section div .bottom>img{
+	float: left;
+	margin-right: 46px;
+}
+section div .bottom .img{
+	margin-left: 137px;
+}
+.des1{
+	font-size: 23px;
+	margin-top: 15px;
+	margin-bottom: 11px;
+}
+section .div1 {
+	width: 931px;
+	background: #fff;
+}
+section .div1 .top{
+	position: relative;
+	top: 140px;
+	left: -242px;
+}
+section .div1 .top .des{
+	font-size: 19px;
+}
+
+
+
+
+
+
+
+
+main{
+	width: 931px;
+	height: auto;
+	margin: 0px auto 20px;
+	overflow: hidden;
+}
+main>div{
+	width: 931px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 30px;
+}
+main>div img{
+	float: left;
+}
+main div p{
+	margin-left: 30px;
+}
+main div .comm{
+	margin-top: 120px;
+	font-size: 27px;
+	float: left;
+}
+main div .adm{
+	font-size: 18px;
+	margin-top: 27px;
+	float: left;
+}
+main div .desp{
+	width: 360px;
+	clear: both;
+}
+main div .tow{
+	float: right;
+	margin-top: -117px;
+}
+main div .dess{
+	width: 360px;
+}
+
+
+
+
+
+footer{
+	min-width: 931px;
+	height: auto;
+	margin-top: 70px;
+}
+footer>div{
+	width: 767px;
+	background: url('../images/app1.png');
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer{
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 200px;
+}
+.footer>img{
+	margin-left: 23px;
+}
+.footer .scan{
+	font-size: 23px;
+	margin-top: 18px;
+	margin-bottom: 30px;
+}
+.footer .des{
+	overflow: hidden;
+} 
+.footer .des>img{
+	float: left;
+}
+.footer .des span{
+	margin-left: 15px;
+	float: left;
+}
+.footer .des .span{
+	font-size: 12px;
+	margin-top: 10px;
+}

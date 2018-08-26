@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7日热门-简书</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/cssreset.css">
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/subject.css">
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <h1><a href="../index.html"><img src="../images/logo.png" alt=""></a></h1>
+        <ul class="ulist-menu">
+            <li class="link-index"><a href="../index.html"><i class="iconfont icon-navigation"></i><span
+                    class="devi">首页</span></a></li>
+            <li><a href="../html/application.html"><i class="iconfont icon-app-download"></i><span
+                    class="devi">下载App</span></a></li>
+            <li>
+                <form id="search" action="../html/search.html" method="post" accept-charset="UTF-8" target="_blank">
+                    <input type="text" id="search-input" placeholder="搜索" autocomplete="off">
+                    <i id="btn-search" class="iconfont icon-search2" onclick="checkInput();"></i>
+                </form>
+                <div class="search-hot" id="search-hot">
+                    <p><span>热门搜索</span><span><a class="change"><i class="iconfont icon-refresh1"></i>换一批</a></span></p>
+                    <ul class="search-list">
+                        <li><a href="../html/search.html" target="_blank">区块链</a></li>
+                        <li><a href="../html/search.html" target="_blank">小程序</a></li>
+                        <li><a href="../html/search.html" target="_blank">vue</a></li>
+                        <li><a href="../html/search.html" target="_blank">故事</a></li>
+                        <li><a href="../html/search.html" target="_blank">PHP</a></li>
+                        <li><a href="../html/search.html" target="_blank">UI设计</a></li>
+                        <li><a href="../html/search.html" target="_blank">美食</a></li>
+                        <li><a href="../html/search.html" target="_blank">思维导图</a></li>
+                        <li><a href="../html/search.html" target="_blank">PPT</a></li>
+                        <li><a href="../html/search.html" target="_blank">程序猿</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="btn-menu">
+            <span class="btn-mode"><i id="font" class="iconfont icon-ziti"></i>
+                <div class="mode">
+                    <div class="mode-top">
+                        <span><i class="iconfont icon-moon"></i>夜间模式</span>
+                        <span>
+                            <a class="btn-on">开</a><a class="btn-off">关</a>
+                        </span>
+                    </div>
+                    <div class="mode-bottom">
+                        <span>
+                            <a class="btn-song">宋体</a><a class="btn-black">黑体</a>
+                        </span>
+                        <span>
+                            <a class="btn-simple">简</a><a class="btn-complex">繁</a>
+                        </span>
+                    </div>
+                </div>
+            </span>
+            <span class="btn-login"><a href="../html/sign_in.html">登录</a></span>
+            <span class="btn-reg"><a href="../html/sign_up.html">注册</a></span>
+            <span class="btn-write"><a href="#"><i class="iconfont icon-write"></i>写文章</a></span>
+        </div>
+    </nav>
+    <div class="back-top"><i class="iconfont icon-Backtop-Top"></i><div class="tool-tip">回到顶部</div></div>
+</header>
+<div class="container">
+    <div class="main">
+        <div class="left-main-top"><img src="../images/weekl.png" alt=""></div>
+        <ul class="note-list">
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v4.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">高考九年 | 我多希望九年前有人告诉我这些</a>
+                <p class="abstract">清楚地记得高考那两天，经历了这辈子见过的最大的雨。天仿佛漏了个洞，大雨噼里啪啦地砸下来，地上的积水没过了大半个车轱辘。 清楚地记得写完英语作文画...</p>
+                    <span>
+                        <a href="#">莲花墨</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>14</a>
+                        <a><i class="iconfont icon-heart"></i>36</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v3.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">败家子</a>
+                <p class="abstract">小苗妹子是做化妆品生意的微商朋友，有一天，她手提袋里提了七八种补水保湿的产品，要我试试产品质量。 平时她也常来我家做生意，我礼尚往来在她一堆产品...</p>
+                    <span>
+                        <a href="#">六月荷清香</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>3</a>
+                        <a><i class="iconfont icon-heart"></i>1</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v5.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">大学室友对彼此有什么影响？</a>
+                <p class="abstract">-01- 有人说，大学宿舍是一种反人类的存在。一群原本天南地北、互不相识的人，被随机安排到一个十几平米的房间，并且要在未来四年里维持着紧密的联系...</p>
+                    <span>
+                        <a href="#">六月荷清香</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>27</a>
+                        <a><i class="iconfont icon-heart"></i>18</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v6.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">水彩//采蘑菇的小姑娘</a>
+                <p class="abstract">文、画/野兔丫 我猜，小胖兔肯定正躲在小松鼠的后面，巴巴地瞅着小松鼠手里的松果，伺机。。。 翻小满的简书看她有没有更文，忽然发现了之前我送给她的...</p>
+                    <span>
+                        <a href="#">逐方梦</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>17</a>
+                        <a><i class="iconfont icon-heart"></i>12</a>
+                        <a><i class="iconfont icon-renminbi"></i>4</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/2d691.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">零基础，IT工程师</a>
+                <p class="abstract">以下文章转载自知乎,暗灭-京华九月秋近寒，浮沉半生影长单. 暗灭 京华九月秋近寒，浮沉半生影长单 IT修真院自问自答系列第十七篇，干货和硬广混杂。 一 前言
+                    2015年6月成立修真院到2017年2月份，我花了一年零八个月的时间来验证我的想法。 第一，程序员可以学习的更快。</p>
+                    <span>
+                        <a href="#">烛残未觉梦方破</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>38</a>
+                        <a><i class="iconfont icon-heart"></i>29</a>
+                        <a><i class="iconfont icon-renminbi"></i>2</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/111.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">没事早点睡 有空多赚钱</a>
+                <p class="abstract">文|十点君 有时候，你之所以过得不快乐，无非是因为赚钱太少，而且还睡得不好。早睡，解决80%的问题 我有个好朋友，当年就曾因为失恋的影响，不仅... </p>
+                    <span>
+                        <a href="#">王权主</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                        <a><i class="iconfont icon-heart"></i>2</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/561fff.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">每天500字！遇见更好的自己</a>
+                <p class="abstract">文/沐伶 时间过得很快，我注册简书快半个月了，写了14篇文章，四舍五入算2万字吧。 至今仍是没有很多粉丝，没有很多点赞，也没有很大的阅读量，尽管...</p>
+                    <span>
+                        <a href="#">王权主</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>22</a>
+                        <a><i class="iconfont icon-heart"></i>16</a>
+                        <a><i class="iconfont icon-renminbi"></i>4</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/2231.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">文案写作，让我逆天改命，绝境逢生</a>
+                <p class="abstract">一、身处绝境牢笼 1.我从没想到过写文案这条路，因为写作是我的短板。所以能不触碰就不触碰。但实际情况是，我又在很多场合需要写文案。每次都是硬着头江畔见月...</p>
+                    <span>
+                        <a href="#">章智航</a>
+                        <a href=""><i class="iconfont icon-comment"></i>0</a>
+                        <a><i class="iconfont icon-heart"></i>0</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v4.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">高考九年 | 我多希望九年前有人告诉我这些</a>
+                <p class="abstract">清楚地记得高考那两天，经历了这辈子见过的最大的雨。天仿佛漏了个洞，大雨噼里啪啦地砸下来，地上的积水没过了大半个车轱辘。 清楚地记得写完英语作文画...</p>
+                    <span>
+                        <a href="#">莲花墨</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>14</a>
+                        <a><i class="iconfont icon-heart"></i>36</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v3.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">败家子</a>
+                <p class="abstract">小苗妹子是做化妆品生意的微商朋友，有一天，她手提袋里提了七八种补水保湿的产品，要我试试产品质量。 平时她也常来我家做生意，我礼尚往来在她一堆产品...</p>
+                    <span>
+                        <a href="#">六月荷清香</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>3</a>
+                        <a><i class="iconfont icon-heart"></i>1</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v5.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">大学室友对彼此有什么影响？</a>
+                <p class="abstract">-01- 有人说，大学宿舍是一种反人类的存在。一群原本天南地北、互不相识的人，被随机安排到一个十几平米的房间，并且要在未来四年里维持着紧密的联系...</p>
+                    <span>
+                        <a href="#">六月荷清香</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>27</a>
+                        <a><i class="iconfont icon-heart"></i>18</a>
+                    </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v6.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">水彩//采蘑菇的小姑娘</a>
+                <p class="abstract">文、画/野兔丫 我猜，小胖兔肯定正躲在小松鼠的后面，巴巴地瞅着小松鼠手里的松果，伺机。。。 翻小满的简书看她有没有更文，忽然发现了之前我送给她的...</p>
+                    <span>
+                        <a href="#">逐方梦</a>
+                        <a href="#"><i class="iconfont icon-comment"></i>17</a>
+                        <a><i class="iconfont icon-heart"></i>12</a>
+                        <a><i class="iconfont icon-renminbi"></i>4</a>
+                    </span>
+            </li>
+        </ul>
+        <p><a class="readMore">阅读更多</a></p>
+    </div>
+    <div class="rig-side">
+        <p><span class="re-author">推荐作者</span><a class="another"><i class="iconfont icon-refresh1"></i>换一批</a></p>
+        <ul>
+            <li class="author-info">
+                <a href="#" target="_blank">
+                    <img src="../images/author.png" alt="">
+                    <span class="author-name">简书大学堂</span>
+                </a>
+                <p>写了9635.3k字 · 68.1k喜欢</p>
+                <a href="#" class="add-follow"><i class="iconfont icon-jia"></i>关注</a>
+            </li>
+            <li class="author-info">
+                <a href="#" target="_blank">
+                    <img src="../images/765.png" alt="">
+                    <span class="author-name">徐林Grace</span>
+                </a>
+                <p>写了462.6k字 · 4.3k喜欢</p>
+                <a href="#" class="add-follow"><i class="iconfont icon-jia"></i>关注</a>
+            </li>
+            <li class="author-info">
+                <a href="#" target="_blank">
+                    <img src="../images/ah1.jpg" alt="">
+                    <span class="author-name">吴小布</span>
+                </a>
+                <p>写了549.5k字 · 13.1k喜欢</p>
+                <a href="#" class="add-follow"><i class="iconfont icon-jia"></i>关注</a>
+            </li>
+            <li class="author-info" target="_blank">
+                <a href="#">
+                    <img src="../images/ah3.jpg" alt="">
+                    <span class="author-name">Hobbit霍比特人</span>
+                </a>
+                <p>写了216.3k字 · 720喜欢</p>
+                <a href="#" class="add-follow"><i class="iconfont icon-jia"></i>关注</a>
+            </li>
+            <li class="author-info">
+                <a href="#" target="_blank">
+                    <img src="../images/ah4.jpg" alt="">
+                    <span class="author-name">途柯小姐</span>
+                </a>
+                <p>写了80.2k字 · 1.1k喜欢</p>
+                <a href="#" class="add-follow"><i class="iconfont icon-jia"></i>关注</a>
+            </li>
+        </ul>
+        <a class="show-all" href="#">查看全部 <i class="iconfont icon-next-copy"></i></a>
+
+    </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/my.js"></script>
+<script>
+    $('.readMore').on("click",function(){
+        $.getJSON('../js/article.json',function(art){
+            $.each(art,function(i,v){
+                readMore(v);
+            })
+        });
+        function readMore(item){
+            $('.note-list').append(`<li class="article-info">
+                <a href="../${item.link}"><img class="article-img" onerror="javascript:this.style.display='none'" src="../${item.img}" alt=""></a>
+                <a href="../${item.link}" class="article-title">${item.title}</a>
+                <p class="abstract">${item.abstract}</p>
+                <span>
+                    <a href="${item.author.link}">${item.author.name}</a>
+                    <a href="${item.comments.link}"><i class="iconfont icon-comment"></i>${item.comments.num}</a>
+                    <a><i class="iconfont icon-heart"></i>${item.like}</a>
+                    <a><i class="iconfont icon-renminbi"></i>${item.money}</a>
+                </span>
+            </li>`);
+            check();
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>简书大学堂 - 简书</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/cssreset.css">
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/subject.css">
+</head>
+<body>
+<header>
+    <nav class="nav">
+        <h1><a href="../index.html"><img src="../images/logo.png" alt=""></a></h1>
+        <ul class="ulist-menu">
+            <li class="link-index"><a href="../index.html"><i class="iconfont icon-navigation"></i><span
+                    class="devi">首页</span></a></li>
+            <li><a href="../html/application.html"><i class="iconfont icon-app-download"></i><span
+                    class="devi">下载App</span></a></li>
+            <li>
+                <form id="search" action="../html/search.html" method="post" accept-charset="UTF-8" target="_self">
+                    <input type="text" id="search-input" placeholder="搜索" autocomplete="off">
+                    <i id="btn-search" class="iconfont icon-search2" onclick="checkInput();"></i>
+                </form>
+                <div class="search-hot" id="search-hot">
+                    <p><span>热门搜索</span><span><a class="change"><i class="iconfont icon-refresh1"></i>换一批</a></span></p>
+                    <ul class="search-list">
+                        <li><a href="../html/search.html">区块链</a></li>
+                        <li><a href="../html/search.html">小程序</a></li>
+                        <li><a href="../html/search.html">vue</a></li>
+                        <li><a href="../html/search.html">故事</a></li>
+                        <li><a href="../html/search.html">PHP</a></li>
+                        <li><a href="../html/search.html">UI设计</a></li>
+                        <li><a href="../html/search.html">美食</a></li>
+                        <li><a href="../html/search.html">思维导图</a></li>
+                        <li><a href="../html/search.html">PPT</a></li>
+                        <li><a href="../html/search.html">程序猿</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="btn-menu">
+                <span class="btn-mode"><i id="font" class="iconfont icon-ziti"></i>
+                	<div class="mode">
+                        <div class="mode-top">
+                            <span><i class="iconfont icon-moon"></i>夜间模式</span>
+                        <span>
+                            <a class="btn-on">开</a><a class="btn-off">关</a>
+                        </span>
+                        </div>
+                        <div class="mode-bottom">
+                        <span>
+                            <a class="btn-song">宋体</a><a class="btn-black">黑体</a>
+                        </span>
+                        <span>
+                            <a class="btn-simple">简</a><a class="btn-complex">繁</a>
+                        </span>
+                        </div>
+                    </div>
+            	</span>
+            <span class="btn-login"><a href="../html/sign_up.html">登录</a></span>
+            <span class="btn-reg"><a href="../html/sign_up.html">注册</a></span>
+            <span class="btn-write"><a href="#"><i class="iconfont icon-write"></i>写文章</a></span>
+        </div>
+    </nav>
+    <div class="back-top"><i class="iconfont icon-Backtop-Top"></i><div class="tool-tip">回到顶部</div></div>
+</header>
+<div class="container">
+    <div class="main">
+        <div class="main-top">
+            <a href="#">
+                <img src="../images/jianshuschool.png" alt="" class="ahi">
+                <span class="name ahn">简书大学堂</span>
+            </a>
+            <ul class="info">
+                <li>
+                    <p>41</p>
+                    <a href="#">关注<i class="iconfont icon-ios-arrow-up"></i></a>
+                </li>
+                <li>
+                    <p>279691</p>
+                    <a href="#">粉丝<i class="iconfont icon-ios-arrow-up"></i></a>
+                </li>
+                <li>
+                    <p>437</p>
+                    <a href="#">文章<i class="iconfont icon-ios-arrow-up"></i></a>
+                </li>
+                <li>
+                    <p>279691</p>
+                    <a href="#">字数<i class="iconfont icon-ios-arrow-up"></i></a>
+                </li>
+                <li>
+                    <p>19267</p>
+                    <a href="#">收获喜欢<i class="iconfont icon-ios-arrow-up"></i></a>
+                </li>
+            </ul>
+            <a href="#" class="btn-hollow">发简信</a>
+            <a href="#" class="btn-follow"><i class="iconfont icon-follow"></i>关注</a>
+        </div>
+        <div class="menu">
+            <ul class="mlist">
+                <li class="current"><a href="#" class="acurrent"><i class="iconfont icon-note"></i>文章</a></li>
+                <li><a href="#"><i class="iconfont icon-bell"></i>动态</a></li>
+                <li><a href="#"><i class="iconfont icon-comments1"></i>最新评论</a></li>
+                <li><a href="#"><i class="iconfont icon-hot"></i>热门</a></li>
+            </ul>
+        </div>
+        <ul class="note-list">
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">怎么做才能让自己言之有物?</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>136</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>12</a>
+                    <a>今天 08:02</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">语言表达效果不好？掌握这三个方面就行</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>300</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>14</a>
+                    <a>今天 11:32</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">如何用“观点线”来发起谈话？</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>52</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>1</a>
+                    <a>08.21 14:02</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">警惕“时间黑洞”，不做无用功</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>297</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>2</a>
+                    <a>前天 18:44</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/v4.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">高考九年 | 我多希望九年前有人告诉我这些</a>
+                <p class="abstract">清楚地记得高考那两天，经历了这辈子见过的最大的雨。天仿佛漏了个洞，大雨噼里啪啦地砸下来，地上的积水没过了大半个车轱辘。 清楚地记得写完英语作文画...</p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>297</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>2</a>
+                    <a>昨天 08:44</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">避免信息过载，实现高效工作</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>7</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>403</a>
+                    <a><i class="iconfont icon-heart"></i>21</a>
+                    <a>08.21 11:05</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">零基础，IT工程师</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>297</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>2</a>
+                    <a>前天 19:04</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/art6.jpg" alt=""></a>
+                <a href="../html/article.html" class="article-title">与其关注平衡，不如提高效能</a>
+                <p class="abstract">如何高效阅读？如何实现写作这门超级技艺？如何练就一个骨灰级的技能？如何通过独立思考改变命运？...本次课程将在12个人生重要方面给你带来思维升级，使你成为意识黑...</p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>64</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>04</a>
+                    <a><i class="iconfont icon-heart"></i>21</a>
+                    <a>08.21 15:23</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">如何用“观点线”来发起谈话？</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>52</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>1</a>
+                    <a>08.21 14:02</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="../images/art15.png" alt=""></a>
+                <a href="../html/article.html" class="article-title">1.要如何改变思维，才能实现真正的自我突破？</a>
+                <p class="abstract">1.要如何改变思维，才能实现真正的自我突破？ 这一讲主要从反馈机制来解释为什么我们做一件事情很难坚持，以及究竟是什么样的思维模式将我们束缚。 你...</p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>5449</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>12</a>
+                    <a><i class="iconfont icon-heart"></i>192</a>
+                    <a>08.17 18:49</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">思想不够深刻?——这样阅读提升深度的表达力</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>306</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>10</a>
+                    <a>08.14 08:02</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">怎么做才能让自己言之有物?</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>136</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>12</a>
+                    <a>今天 08:02</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">语言表达效果不好？掌握这三个方面就行</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>300</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>14</a>
+                    <a>今天 11:32</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">如何用“观点线”来发起谈话？</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>52</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>1</a>
+                    <a>08.21 14:02</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">避免信息过载，实现高效工作</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>7</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>403</a>
+                    <a><i class="iconfont icon-heart"></i>21</a>
+                    <a>08.21 11:05</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">零基础，IT工程师</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>297</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>2</a>
+                    <a>前天 19:04</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">与其关注平衡，不如提高效能</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>64</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>04</a>
+                    <a><i class="iconfont icon-heart"></i>21</a>
+                    <a>08.21 15:23</a>
+                </span>
+            </li>
+            <li class="article-info">
+                <a href="../html/article.html"><img class="article-img" onerror="javascript:this.style.display='none'" src="" alt=""></a>
+                <a href="../html/article.html" class="article-title">如何用“观点线”来发起谈话？</a>
+                <p class="abstract"></p>
+                <span>
+                    <a class="pay"><i class="iconfont icon-zuanshi"></i>付费</a>
+                    <a href="#"><i class="iconfont icon-capacity"></i>52</a>
+                    <a href="#"><i class="iconfont icon-comment"></i>0</a>
+                    <a><i class="iconfont icon-heart"></i>1</a>
+                    <a>08.21 14:02</a>
+                </span>
+            </li>
+        </ul>
+        <p><a class="readMore">阅读更多</a></p>
+    </div>
+    <div class="side">
+        <div class="ah-top">
+            <a href="#"><img src="../images/verified.png" alt="">简书员工</a>
+            <a href="#"><img src="../images/verified2.png" alt="">简书会员</a>
+        </div>
+        <div class="side-top">
+            <span>个人简介</span><br>
+            <p>简书自有的学习成长平台。<br>
+               这里有简书最实用的课程！</p>
+            <p>10堂课搞定自媒体写作：好内容真不如标题党？↓</p>
+            <a href="#">https://www.jianshu.com/nb/28146878</a>
+            <p>职场第1课↓</p>
+            <a href="#">https://www.jianshu.com/nb/27925733</a>
+            <p>掌握说话的力量↓</p>
+            <a href="#">https://www.jianshu.com/nb/28370799</a>
+            <div class="divide"></div>
+            <p>简书大学堂讲师签约申请指南请点击↓</p>
+            <a href="#">http://www.jianshu.com/p/2b843275edf7</a>
+            <p>积分商城课程购买通道请点击↓</p>
+            <a href="#">https://www.jianshu.com/duiba/product</a>
+            <p>热门问题答疑请点击↓</p>
+            <a href="#">https://www.jianshu.com/p/f27135e1383a</a>
+            <p>简书APP直接听课请在主页点击「他的文集」。</p>
+            <p>微信学习渠道请在微信公众号简书大学堂（jianshuIT）后台回复关键字获取入口。</p>
+            <p>更多福利及课程购买入口请关注微信公众号简书大学堂（jianshuIT），快来了解课程所需资料及装备吧！</p>
+            <div class="desc">
+                <i class="iconfont icon-weixin"></i>
+            </div>
+        </div>
+        <div class="side-top">
+            <span>他已上线的课程</span><br>
+            <p><a href="#" class="course-name"><img src="../images/course1.jpg" alt=""><span>12堂脑洞大开的思维升级课</span></a></p><br>
+            <p><a href="#" class="course-name"><img src="../images/course2.png" alt=""><span>21天吃出健康好身材</span></a></p><br>
+            <span>查看他的全部24个课程</span><span><i class="iconfont icon-next-copy"></i></span>
+        </div>
+        <div class="side-course">
+            <p><a href="#" class="course-name"><i class="iconfont icon-collection"></i><span>他关注的专题/文集/连载</span></a></p><br>
+            <p><a href="#" class="course-name"><i class="iconfont icon-heart1"></i><span>他喜欢的文章</span></a></p><br>
+        </div>
+        <div class="side-top subj">
+            <span>他创建的专题</span><br>
+            <p><a href="#" class="course-name"><img src="../images/author.png" alt=""><span>大学堂公众号精选文章</span></a></p><br>
+            <p><a href="#" class="course-name"><img src="../images/author.png" alt=""><span>简书大学堂精选好课</span></a></p><br>
+            <p><a href="#" class="course-name"><img src="../images/author.png" alt=""><span>简书大学堂公告</span></a></p><br>
+            <p><a href="#" class="course-name"><img src="../images/author.png" alt=""><span>学堂菌搞事情</span></a></p>
+        </div>
+        <div class="side-top subj">
+            <span>简书日报-每日精选</span><br>
+            <p><a href="#" class="course-name"><img src="../images/jianshuribao.png" alt=""><span>12堂脑洞大开的思维升级课</span></a></p>
+        </div>
+        <div class="side-top">
+            <span>他的文集</span>
+        </div>
+        <ul class="anthology">
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>殷超解读《百年孤独 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>12堂脑洞大开的思维升级课 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>一个人听的恋爱课 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>掌握说话的力量 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>10堂课搞定自媒体写作 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>职场第1课 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>2-8岁宝宝如何学英语 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>你知道的唐诗，不知道的历史 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>梦想早读会《好好学习 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>梦想早读会《把时间当朋友》<span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>如何构思出版你的第一部作品 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>揭开焦虑真相，找回你的控制感 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>胡德夫品读《飞鸟集》<span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>简书成长阅读营 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>小说创作的5个步骤 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>民国女神的前尘往事 <span>付费连载</span></a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>21天吃出健康好身材</a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>学堂菌和他的签约作者们</a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>学堂菌的技能包</a></li>
+            <li><a href="#" target="_blank"><i class="iconfont icon-Articles"></i>学堂菌的福利包</a></li>
+        </ul>
+        <div class="unfold"><p>展开更多</p><span><i class="iconfont icon-next-copy"></i></span></div>
+        <hr>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <ul>
+            <li><a href="#" target="_blank">关于简书</a><span> · </span></li>
+            <li><a href="#" target="_blank">联系我们</a><span> · </span></li>
+            <li><a href="#" target="_blank">加入我们</a><span> · </span></li>
+            <li><a href="#" target="_blank">简书出版</a><span> · </span></li>
+            <li><a href="#" target="_blank">品牌与微标</a><span> · </span></li>
+            <li><a href="#" target="_blank">帮助中心</a><span> · </span></li>
+            <li><a href="#" target="_blank">合作伙伴</a><span> · </span></li>
+        </ul>
+        <p>
+            ©2012-2018 上海佰集信息科技有限公司 / 简书 / 沪ICP备11018329号-5 /
+            <span class="s_one"><a href="#" target="_blank"><img src="../images/smrz.png" alt="" width="60px"></a></span>
+            <a href="#" target="_blank">沪公网安备31010402002252号 /</a>
+        </p>
+        <p>
+            <span class="s_tow">
+                <a href="#" target="_blank"><img src="../images/wxb.png" alt="" width="25px" height="25px"></a>
+            </span>举报电话：021-34770013 /
+            <span class="s_three">
+                <a href="#" target="_blank"><img src="../images/gsrz.png" alt="" width="26px"></a>
+            </span>
+        </p>
+    </div>
+</footer>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/my.js"></script>
+</body>
+</html>

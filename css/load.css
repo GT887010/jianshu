@@ -1,0 +1,71 @@
+.ulist-menu .link-index a,.icon-navigation{
+	color:#333;
+}
+section{
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+p{
+	font-size: 13px;
+	color: rgb(159, 165, 181);
+}
+dl{
+	margin-right: 10px;
+	margin-top: 25px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+dl:nth-of-type(6n){
+	margin-right: 0px;
+}
+dd{
+	font-size: 12px;
+	color: rgb(159, 165, 181);
+}
+dt.title{
+	font-size: 18px;
+	margin-top: 8px;
+}
+dd.des{
+	margin-top: 8px;
+	margin-bottom: 11px;
+}
+.des span{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 3px;
+}
+.des span>img{
+	border-radius: 50%;
+}
+dl>span{
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+dl span>img{
+	border-radius: 5px 0px 5px 0px;
+}
+dl>img{
+	border-radius: 5px 5px 0px 0px;
+}
+p.mo{
+	width: 600px;
+	font-size: 17px;
+	color: black;
+	text-align: center;
+	margin: 30px auto;
+	height: 40px;
+	background: gainsboro;
+	line-height: 40px;
+	border-radius: 20px 20px 20px 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>简书移动应用 App - 简书</title>
+		<link rel="shortcut icon" href="../images/favicon.ico">
+		<link rel="stylesheet" href="../css/cssreset.css">
+		<link rel="stylesheet" type="text/css" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../css/header.css">
+		<link rel="stylesheet" href="../css/app.css">
+	</head>
+	<body>
+	<header>
+		<nav class="nav">
+			<h1><a href="../index.html"><img src="../images/logo.png" alt=""></a></h1>
+			<ul class="ulist-menu">
+				<li class="link-index"><a href="../index.html"><i class="iconfont icon-navigation"></i><span
+						class="devi">首页</span></a></li>
+				<li><a href="../html/application.html"><i class="iconfont icon-app-download"></i><span
+						class="devi">下载App</span></a></li>
+				<li>
+					<form id="search" action="../html/search.html" method="post" accept-charset="UTF-8" target="_blank">
+						<input type="text" id="search-input" placeholder="搜索" autocomplete="off">
+						<i id="btn-search" class="iconfont icon-search2" onclick="checkInput();"></i>
+					</form>
+					<div class="search-hot" id="search-hot">
+						<p><span>热门搜索</span><span><a class="change"><i class="iconfont icon-refresh1"></i>换一批</a></span></p>
+						<ul class="search-list">
+							<li><a href="../html/search.html">区块链</a></li>
+							<li><a href="../html/search.html">小程序</a></li>
+							<li><a href="../html/search.html">vue</a></li>
+							<li><a href="../html/search.html">故事</a></li>
+							<li><a href="../html/search.html">PHP</a></li>
+							<li><a href="../html/search.html">UI设计</a></li>
+							<li><a href="../html/search.html">美食</a></li>
+							<li><a href="../html/search.html">思维导图</a></li>
+							<li><a href="../html/search.html">PPT</a></li>
+							<li><a href="../html/search.html">程序猿</a></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<div class="btn-menu">
+				<span class="btn-mode"><i id="font" class="iconfont icon-ziti"></i>
+                	<div class="mode">
+					<div class="mode-top">
+						<span><i class="iconfont icon-moon"></i>夜间模式</span>
+                        <span>
+                            <a class="btn-on">开</a><a class="btn-off">关</a>
+                        </span>
+					</div>
+					<div class="mode-bottom">
+                        <span>
+                            <a class="btn-song">宋体</a><a class="btn-black">黑体</a>
+                        </span>
+                        <span>
+                            <a class="btn-simple">简</a><a class="btn-complex">繁</a>
+                        </span>
+					</div>
+				</div>
+            	</span>
+				<span class="btn-login"><a href="../html/sign_in.html">登录</a></span>
+				<span class="btn-reg"><a href="../html/sign_up.html">注册</a></span>
+				<span class="btn-write"><a href="#"><i class="iconfont icon-write"></i>写文章</a></span>
+			</div>
+		</nav>
+		<div class="back-top"><i class="iconfont icon-Backtop-Top"></i><div class="tool-tip">回到顶部</div></div>
+	</header>
+	<section>
+		<div>
+			<div class="top">
+				<img src="../images/applogo.png" alt="" width="100px">
+				<h6>创作你的创作</h6>
+				<p>一个优质的创作社区</p>
+			</div>
+			<div class="bottom">
+				<img src="../images/app2.png" alt="" width="413px" class="img">
+				<div class="right">
+					<img src="../images/appdow.png" alt="" width="114px">
+					<p class="des1">扫码下载简书App</p>
+					<p>随时随地发现和创作内容</p>
+				</div>
+			</div>
+		</div>
+		<div class="div1">
+			<div class="top">
+				<h6>轻松创作精美图文</h6>
+				<p class="des">简单优雅的设计，可以上传多张图片，多端同步，是创作更加方便快捷</p>
+			</div>
+			<div class="bottom">
+				<img src="../images/app3.png" alt="" width="931px">
+			</div>
+		</div>
+	</section>
+	<main>
+		<div>
+			<img src="../images/app4.png" alt="" width="414px">
+			<p class="comm">多元化创作社区</p>
+			<p class="adm">一篇短文，一首诗，一幅画，你的创作将得到全世界的赞赏</p>
+		</div>
+		<div>
+			<p class="comm ">百万创作者在简书相遇</p>
+			<p class="adm desp">在简书，仍有数百万创作者在坚持产出优质创作，有数千万读者在用心交流创作；众多精彩创作，只在简书看得到</p>
+			<img src="../images/app5.png" alt="" width="414px" class="tow">
+		</div>
+		<div>
+			<img src="../images/app6.png" alt="" width="414px">
+			<p class="comm">自由地交流和沟通</p>
+			<p class="adm dess">你可以发表评论、沟通想法。觉得不够？还能给创作者发简信，和无数传遍中文互联网的创作者直接交流</p>
+		</div>
+	</main>
+	<footer>
+		<div>
+			<div class="footer">
+			<img src="../images/appdow.png" alt="" width="133px">
+			<p class="scan">扫码下载简书App</p>
+			<p class="des">
+				<img src="../images/applogo.png" alt="" width="55px">
+				<span>创作你的创作</span>
+				<span class="span">一个优质创作社区</span>
+			</p>
+			</div>
+		</div>
+	</footer>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/my.js"></script>
+	</body>
+</html>

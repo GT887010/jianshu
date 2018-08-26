@@ -1,0 +1,245 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1;
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    margin:56px 0 0 50px;
+    width: 100px;
+    vertical-align: middle;
+}
+.login{
+    margin:-45px auto auto;
+    width: 400px;
+    padding: 50px 50px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+.login_top{
+    margin-left: auto;
+    margin-right: auto;
+    height: 42px;
+    font-size: 18px;
+    color:#969696;
+    padding-top: 7px;
+    text-align: center;
+}
+.login_top a{
+    width: 55px;
+    height: 35px;
+    display: inline-block;
+    font-size: 18px;
+    color:#969696;
+    margin:0 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.login_top .current{
+    font-weight: 700;
+    color: #ea6f5a;
+    border-bottom: 2px solid #ea6f5a;
+}
+.login_top a:hover{
+    border-bottom: 2px solid #ea6f5a;
+}
+.put-info {
+    width: 300px;
+    /*height: 200px;*/
+    border-radius: 4px;
+    margin-top:40px;
+    box-sizing: border-box;
+    border: 1px solid #c8c8c8;
+    background: #f8f8f8;
+}
+.wrap{
+    display: block;
+    width: 300px;
+    line-height: 50px;
+    vertical-align: center;
+    height: 50px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #c8c8c8;
+    position: relative;
+}
+.put-info span:nth-of-type(4){
+    border-bottom:none;
+    height: 49px;
+}
+.wrap input{
+    height: 30px;
+    width: 80%;
+    border:none;
+    outline: none;
+    background: #f8f8f8;
+}
+.wrap:nth-of-type(3){
+    display: none;
+}
+.wrap input::-webkit-input-placeholder {
+    color: #aab2bd;
+    font-size: 14px;
+    text-align: left;
+}
+.icon-yonghu,.icon-mima,.icon-phone,.icon-verify{
+    font-size:18px;
+    margin: 10px;
+    color:#969696;
+}
+.send-verify {
+    position: absolute;
+    right:5px;
+    top:50%;
+    margin-top: -17px;
+    height: 34px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    padding: 0 15px;
+    line-height: 34px;
+    background: rgb(157,220,147);
+    border-radius: 20px;
+    color: #fff;
+    cursor:not-allowed;
+    box-sizing: border-box;
+}
+.regbtn {
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    height: 43px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 9px 18px;
+    font-size: 18px;
+    background: #42c02e;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.regbtn:hover{
+    background: rgb(61,185,34);
+}
+.sign_up_msg{
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: #969696;
+}
+.sign_up_msg a{
+    color: #3194d0;
+    text-decoration: none;
+}
+.login_bottom{
+    width: 100%;
+    height: 90px;
+    margin-top:40px;
+    box-sizing: border-box;
+}
+h6{
+    text-align: center;
+    position: relative;
+    margin: 0 0 10px;
+    font-size: 12px;
+    color: #b5b5b5;
+}
+h6:before,h6:after{
+    content: "";
+    border-top: 1px solid #b5b5b5;
+    display: block;
+    position: absolute;
+    width: 60px;
+    top: 8px;
+}
+h6:before{
+    left: 30px;
+}
+h6:after{
+    right: 30px;
+}
+.more_login{
+    width: 128px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.more_login li{
+    width: 50px;
+    float: left;
+    margin-right:13px;
+}
+.more_login li a{
+    text-decoration: none;
+}
+.icon-weixin,.icon-qq{
+    width: 28px;
+    height: 28px;
+}
+.icon-weixin{
+    color:#00bb29;
+    font-size: 30px;
+}
+.icon-qq {
+    color: #498ad5;
+    font-size: 25px;
+}
+.error{
+    width: 260px;
+    border: 1px solid #ea6f5a;
+    border-radius: 6px;
+    background: #fff;
+    position: absolute;
+    padding:5px 10px;
+    display: flex;
+    right: -294px;
+    top: -20%;
+    z-index: 3;
+    line-height: normal;
+    display: none;
+}
+.error:before,.error:after{
+    content:"";
+    display:block;
+    border-width:7px;
+    position:absolute;
+    top:50%;
+    margin-top:-3.5px;
+    border-style:solid;
+    font-size:0;
+    line-height:0;
+}
+.error:before{
+    left:-14px;
+    border-color: transparent #ea6f5a transparent transparent;
+}
+.error:after{
+    left:-13px;
+    border-color: transparent #FFF transparent transparent;
+}
+.icon-error{
+    color:#ea6f5a;
+}
+.error span{
+    margin:auto 0;
+    border:none;
+    line-height: normal;
+}
+.error p{
+    display: block;
+    padding-left:10px;
+    margin:auto 0;
+    font-size: 14px;
+    text-align: center;
+    color:#333;
+    line-height: 26px;
+}
